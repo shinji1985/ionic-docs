@@ -4,35 +4,35 @@ hideTOC: true
 hideFooter: true
 ---
 <div class="cards">
-  <card-link headline="Introduction"
+  <card-link headline="紹介" class="card-introduction"
              has-icon="true"
              url="/docs/intro">
     Ionic Frameworkを使ってすばらしいアプリをつくるために、
     知っておくべき基本を学びます。
   </card-link>
-  <card-link headline="Installation"
+  <card-link headline="インストール" class="card-installation"
              has-icon="true"
              url="/docs/installation/cli">
     Ionic Frameworkを使うためのパッケージのインストールとセットアップ方法を
     順番に案内します。
   </card-link>
-  <card-link headline="UI Components"
+  <card-link headline="UIコンポーネント" class="card-ui-components"
              has-icon="true"
              url="/docs/components">
     Ionic Frameworkの美しくデザインされたUIコンポーネントをまとめて見ることができます。
   </card-link>
-  <card-link headline="API Reference"
+  <card-link headline="APIリファレンス" class="card-api-reference"
              has-icon="true"
              url="/docs/api/">
     APIを確認することで、コンポーネントの使い方やプロパティ、イベントについて深く理解しましょう。
   </card-link>
-  <card-link headline="Native APIs"
+  <card-link headline="Native API" class="card-native-apis"
              has-icon="true"
              url="/docs/native/">
     BluetoothやMap、HealthKitといったネイティブデバイスのプラグインを
     統合して活用することができます。
   </card-link>
-  <card-link headline="Theming"
+  <card-link headline="テーマ" class="card-theming"
              has-icon="true"
              url="/docs/theming/basics">
     あなたのデザインに合わせて、Ionicアプリのビジュアルデザインを簡単にカスタマイズする方法を
