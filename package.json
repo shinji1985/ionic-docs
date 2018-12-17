@@ -24,7 +24,8 @@
     "localize": "node scripts/build/scripts/localize",
     "prelocalize": "tsc -p scripts/tsconfig.json",
     "download": "node scripts/build/scripts/download",
-    "predownload": "tsc -p scripts/tsconfig.json"
+    "predownload": "tsc -p scripts/tsconfig.json",
+    "netlify": "npm run heroku-postbuild && cp scripts/netlify/index.html www/index.html"
   },
   "dependencies": {
     "@stencil/core": "^0.16.0",
