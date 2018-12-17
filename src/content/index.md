@@ -1,5 +1,5 @@
 ---
-title: Framework Docs
+title: 日本語ドキュメンテーション
 hideTOC: true
 hideFooter: true
 ---
@@ -7,36 +7,36 @@ hideFooter: true
   <card-link headline="Introduction"
              has-icon="true"
              url="/docs/intro">
-    Learn the fundamentals you need to know to start building amazing apps with
-    Ionic Framework.
+    Ionic Frameworkを使ってすばらしいアプリをつくるために、
+    知っておくべき基本を学びます。
   </card-link>
   <card-link headline="Installation"
              has-icon="true"
              url="/docs/installation/cli">
-    A step-by-step guide to installing and setting up your system to build Ionic
-    Framework apps.
+    Ionic Frameworkを使うためのパッケージのインストールとセットアップ方法を
+    順番に案内します。
   </card-link>
   <card-link headline="UI Components"
              has-icon="true"
              url="/docs/components">
-    A comprehensive preview of Ionic Framework’s beautifully designed UI component library.
+    Ionic Frameworkの美しくデザインされたUIコンポーネントをまとめて見ることができます。
   </card-link>
   <card-link headline="API Reference"
              has-icon="true"
              url="/docs/api/">
-    Explore the API for a deeper understanding of component methods, properties, and events.
+    APIを確認することで、コンポーネントの使い方やプロパティ、イベントについて深く理解しましょう。
   </card-link>
   <card-link headline="Native APIs"
              has-icon="true"
              url="/docs/native/">
-    Integrate and leverage native device plugins, like Bluetooth, Maps,
-    HealthKit, and more.
+    BluetoothやMap、HealthKitといったネイティブデバイスのプラグインを
+    統合して活用することができます。
   </card-link>
   <card-link headline="Theming"
              has-icon="true"
              url="/docs/theming/basics">
-    Learn how to easily customize and modify your Ionic app’s visual design to
-    fit your brand styles.
+    あなたのデザインに合わせて、Ionicアプリのビジュアルデザインを簡単にカスタマイズする方法を
+    学ぶことができます。
   </card-link>
 </div>
 
@@ -45,22 +45,22 @@ hideFooter: true
     <stencil-route-link url="/docs/cli">
       <strong>Ionic CLI</strong>
       <span>
-        The primary tool used during the process of developing an Ionic app.
+        Ionicアプリの開発において主に利用するコマンドライン・ツール。
       </span>
     </stencil-route-link>
   </li>
   <li class="resources">
     <stencil-route-link url="/docs/developer-resources/books">
       <strong>Dev Resources</strong>
-      <span>Learn official guides, videos, books, and more.</span>
+      <span>公式ガイド、ビデオ、書籍で学ぶことができます。</span>
     </stencil-route-link>
   </li>
   <li class="_ionicons">
     <a href="http://ionicons.com" target="_blank">
       <strong>Ionicons</strong>
       <span>
-        Beautifully designed icons built for us in web, iOS, Android, and
-        desktop apps.
+        Web, iOS, Android, ディスクトップアプリで使うために美しくデザインされた
+        アイコンです。
       </span>
     </a>
   </li>
@@ -68,8 +68,8 @@ hideFooter: true
     <stencil-route-link url="/docs/faq/glossary">
       <strong>FAQ</strong>
       <span>
-        Get answers to some of the most commonly asked questions about the
-        Framework.
+        フレームワークについてよくある質問と
+        回答
       </span>
     </stencil-route-link>
   </li>
