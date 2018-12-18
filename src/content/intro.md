@@ -38,36 +38,35 @@ Ionic Frameworkは簡単につくることができるので、Ionicアプリを
 
 ## ライセンス
 
-Ionic Framework is a free and open source project, released under the permissable <a href="https://opensource.org/licenses/MIT" target="_blank">MIT license</a>. This means it can be used in personal or commercial projects for free. MIT is the same license used by such popular projects as jQuery and Ruby on Rails.
-
-This documentation content (found in the <a href="https://github.com/ionic-team/ionic-docs" target="_blank">ionic-docs</a> repo) is licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache 2 license</a>.
+Ionic Frameworkは<a href="https://opensource.org/licenses/MIT" target="_blank">MIT license</a>のもとで利用できる無料のオープンソースプロジェクトです。つまり、個人でも商用でも無料で利用することができます。MIT licenseは、有名なjQueryやRuby on Railsでも採用されています。
+また、このドキュメントのコンテンツは(<a href="https://github.com/ionic-team/ionic-docs" target="_blank">ionic-docs</a>レポジトリ)は<a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache 2 license</a>のもとで利用できます。
 
 ## Ionic CLI
 
-The official [Ionic CLI](/docs/cli), or Command Line Interface, is a tool that quickly scaffolds Ionic apps and provides a number of helpful commands to Ionic developers. In addition to installing and updating Ionic, the CLI comes with a built-in development server, build and debugging tools, and much more. If you are an [Ionic Pro](#ionic-pro) member, the CLI can be used to perform cloud builds and deployments, and administer your account.
+公式の[Ionic CLI](/docs/cli)（Command Line Interface）は、Ionicアプリの土台をすばやく構築し、Ionicの開発者に役立つ多くのコマンドを提供するツールです。Ionicのインストールと更新に加えて、CLIには、開発用のビルトインサーバーの立ち上げやビルド、デバッグをすることができます。[Ionic Pro](#ionic-pro)に登録しているなら、CLIを使ってクラウドのビルドツールとデプロイツール、アカウント管理も利用できます。
 
 ## フレームワークの互換性
 
-While past releases of Ionic were tightly coupled to Angular, V4 of the framework was re-engineered to work as a standalone Web Component library, with integrations for the latest JavaScript frameworks, like Angular. Ionic can be used
-in most frontend frameworks with success, including React and Vue, though some frameworks need a shim for full Web Component support.
+過去リリースされたIonicはAngularと密結合でしたが、Ionic v4からは単独のWeb Componentsライブラリとして機能し、Angularのような最新のJavaScriptフレームワークと一緒に利用することができます。
+IonicはReactやVueを含むほとんどのフロントエンドフレームワークで動かすことができますが、いくつかの環境下ではWeb Componentsをすべて機能させるためにshimを利用する必要があります。
 
 ### JavaScript
 
-One of the main goals with Ionic 4 was to remove any hard requirement on a single framework to host the components. This means the core components can work standalone with just a script tag in a web page. While working with frameworks can be great for larger teams and larger apps, it is now possible to use Ionic as a standalone library in a single page even in a context like WordPress.
+Ionic 4の大きな目標のひとつに、UIコンポーネントを動作させるためのフレームワーク要件をなくすことがありました。つまり、コアコンポーネントはWebページにscriptタグひとつ書くだけで（フレームワークを導入しなくても）独立して動かすことができます。フレームワークをつかって開発することは大きなチームやアプリにとっては効率的ですが、WordPressといった単一なページでもIonicを独立したライブラリとして利用できるようになりました。
 
 ### Angular
 
-Angular has always been at the center of what makes Ionic great. While the core components have been written to work as a standalone Web Component library, the `@ionic/angular` package makes integration with the Angular ecosystem a breeze. `@ionic/angular` includes all the functionality that Angular developers would expect coming from Ionic 2/3, and integrates with core Angular libraries, like the Angular router.
+AngularはいつもIonicをよりよくしてくれます。コアコンポーネントはWeb Componentsライブラリ単体として利用できますが、`@ionic/angular`パッケージを使うことで簡単にAngularのエコシステムと統合できます。`@ionic/angular`は、Angular開発者がIonic 2/3から期待してきた機能や、AngularルーターなどのAngularのコアライブラリとの統合といったすべての機能が含まれています。
 
 ### 今後のサポート
 
-Support for other frameworks are expected in future release. Currently official bindings for Vue and React are being developed, though some components Just Work out of the box in those frameworks.
+今後のリリースでは、他のフレームワークのサポートも予定されています。現在、VueとReactの公式バインディングが開発中ですが、一部のコンポーネントはこれらのフレームワークの枠組みの外で動作しますす。
 
 ## Ionic Framework v4+
 
-Ionic Framework V4 is a major advance in the underlying technology and capabilities of the project, with a focus on performance, compatibility, and overall extensibility. Although V4 still integrates deeply with Angular through the `@ionic/angular` package, it is now also framework-agnostic, meaning it can work with any other JavaScript framework (Vue, React, Preact, etc), or with no framework at all.
+Ionic Framework v4では、パフォーマンス、互換性、および全体的な拡張性に重点を置いて、プロジェクトの基礎となるテクノロジと機能が大きく進歩しました。v4でも`@ionic/angular`パッケージを通じてAngularと深く統合されていますが、フレームワークに依存しないために、他のJavaScriptフレームワーク（Vue、React、Preactなど）やフレームワークのない環境でも利用することができます。
 
-By moving to web standards, V4 allows the core of Ionic to rely on the standard component model supported in modern browsers, rather than a framework-specific model. This can mean faster load time, better performance, and less overall code.
+v4がWeb標準に移行したことで、Ionicコアはフレームワーク固有の実装ではなく、最新ブラウザでサポートされている標準コンポーネントの実装に依存することができます。これは、読み込み時間の短縮、パフォーマンスの向上、コード全体の削減を意味します。
 
 ## Ionic Pro
 
@@ -75,16 +74,16 @@ To help manage Ionic apps throughout their lifecycle, we also offer a commercial
 
 Ionic Pro helps developers and teams monitor and track runtime errors, compile native app builds, and deploy live code updates to Ionic apps from a centralized dashboard. Pro requires an <a href="https://dashboard.ionicframework.com/signup" target="_blank">Ionic Account</a> and comes with a free “Starter” plan for those interested in playing around with some of its features. Optional upgrades to paid plans for more advanced capabilities and scale are available as well.
 
-## エコシステム
+## 開発体制
 
-Ionic Framework is actively developed and maintained full-time by a core team, and its ecosystem is guided by an international community of developers and contributors fueling its growth and adoption. Developers and companies small and large use Ionic to build and ship amazing apps that run everywhere.
+Ionic Frameworkはコアチームによってフルタイムで積極的に開発・メンテナンスが行われています。そしてその体制は、全世界の開発者コミュニティとコントリビューターが成長と普及を促すことによって方向付けられています。開発者や企業は、Ionicを使ってあらゆる場所で動作するすばらしいアプリを開発・リリースしています。
 
 ### コミュニティに参加する
 
-There are millions of Ionic developers in over 200 countries worldwide. Here are some ways to join:
+世界200カ国以上に数百万のIonicの開発者がいます。参加するには、いくつかの方法があります：
 
-* <a href="https://forum.ionicframework.com/" target="_blank">Forum:</a> A great place for asking questions and sharing ideas.
-* <a href="https://ionicworldwide.herokuapp.com/" target="_blank">Slack:</a> A lively place for devs to meet and chat in real time.
-* <a href="https://twitter.com/Ionicframework" target="_blank">Twitter:</a> Where we post updates and share content from the Ionic community.
-* <a href="https://github.com/ionic-team/ionic" target="_blank">GitHub:</a> For reporting bugs or requesting new features, create an issue here. PRs welcome!
-* <a href="https://ionicframework.com/contributors" target="_blank">Content authoring:</a> Write a technical blog or share your story with the Ionic community.
+* <a href="https://forum.ionicframework.com/" target="_blank">Forum:</a> 質問してアイデアを共有するのに適しています。
+* <a href="https://ionicworldwide.herokuapp.com/" target="_blank">Slack:</a> 開発者がリアルタイムで出会い、チャットするための場所です。
+* <a href="https://twitter.com/Ionicframework" target="_blank">Twitter:</a> Ionicコミュニティの最新情報を投稿し、共有する場所です。
+* <a href="https://github.com/ionic-team/ionic" target="_blank">GitHub:</a> 不具合を報告したり、新機能をリクエストするにはここでIssuesを建ててください。プルリク歓迎！
+* <a href="https://ionicframework.com/contributors" target="_blank">Content authoring:</a> 技術ブログを書くか、あなたのIonicコミュニティの話を共有してください。

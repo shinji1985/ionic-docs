@@ -1,7 +1,7 @@
 export const main = {
-  'Home': '/docs/',
-  'Introduction': {
-    'What is Ionic Framework': '/docs/intro',
+  'ホーム': '/docs/',
+  '紹介': {
+    'Ionic Frameworkとは': '/docs/intro',
     'Core Concepts': '/docs/intro/concepts',
     'Browser Support': '/docs/intro/browser-support',
     'Versioning': '/docs/intro/versioning',
