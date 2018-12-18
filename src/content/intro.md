@@ -39,6 +39,7 @@ Ionic Frameworkは簡単につくることができるので、Ionicアプリを
 ## ライセンス
 
 Ionic Frameworkは<a href="https://opensource.org/licenses/MIT" target="_blank">MIT license</a>のもとで利用できる無料のオープンソースプロジェクトです。つまり、個人でも商用でも無料で利用することができます。MIT licenseは、有名なjQueryやRuby on Railsでも採用されています。
+
 また、このドキュメントのコンテンツは(<a href="https://github.com/ionic-team/ionic-docs" target="_blank">ionic-docs</a>レポジトリ)は<a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache 2 license</a>のもとで利用できます。
 
 ## Ionic CLI
