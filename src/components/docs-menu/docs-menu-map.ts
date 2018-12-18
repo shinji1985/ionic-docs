@@ -3,7 +3,7 @@ export const main = {
   '紹介': {
     'Ionic Frameworkとは': '/docs/intro',
     'Core Concepts': '/docs/intro/concepts',
-    'Browser Support': '/docs/intro/browser-support',
+    'ブラウザサポート': '/docs/intro/browser-support',
     'Versioning': '/docs/intro/versioning',
     'Support': '/docs/intro/support'
   },
