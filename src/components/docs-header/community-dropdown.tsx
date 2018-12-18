@@ -7,6 +7,16 @@ const items = [
     className: 'github'
   },
   {
+    text: 'イベント',
+    url: 'https://ionic-jp.connpass.com/',
+    className: 'connpass'
+  },
+  {
+    text: 'slack Group (日本)',
+    url: 'https://t.co/K9slM8tvi8',
+    className: 'chat'
+  },
+  {
     text: 'Forum',
     url: 'https://forum.ionicframework.com/',
     className: 'forum'
@@ -45,14 +55,14 @@ export default () => (
     items={items}
     renderer={dropdown => [
       <a class="community-dropdown__toggle" onClick={dropdown.toggle}>
-        Community
+        コミュニティ
         <svg viewBox="0 0 33 22"><polygon points="16.5 22 0 0 33 0"></polygon></svg>
       </a>,
       <a class="community-dropdown__mobile-toggle" onClick={dropdown.toggle}>
         { dropdown.isOpen ? <Close/> : <More/> }
       </a>,
       <div class={{ 'community-dropdown__panel': true, 'is-open': dropdown.isOpen }}>
-        <div class="community-dropdown__title">Community</div>
+        <div class="community-dropdown__title">コミュニティ</div>
         <ul>
           {dropdown.items.map(item => (
             <li class={{ 'community-dropdown__item': true, [item.className]: true }}>

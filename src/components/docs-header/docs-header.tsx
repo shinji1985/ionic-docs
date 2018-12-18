@@ -35,6 +35,9 @@ export class DocsHeader {
         <a href={this.getGithubLink(this.section)}
            class="github-link"
            target="_blank">GitHub<NewTab/></a>
+        <a href="https://github.com/ionic-jp/ionic-docs"
+           class="github-link"
+           target="_blank">翻訳に協力する<NewTab/></a>
       </nav>
     );
   }
