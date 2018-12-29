@@ -73,9 +73,7 @@ Ionic CLIは[`ionic generate`](/docs/cli/generate)コマンドでアプリに新
 
 作りたい機能を選択した後、Ionic CLIが機能名を尋ねてきます。機能名にはパスも入力可能で、プロジェクト構成に適した機能を簡単に配置することができます。
 
-
 > 機能名には`portfolio/intro`といったようなどんな階層のネスト構造も入力可能です。例として、`ionic g component "portfolio/intro/About Me"` と入力することで、そのコンポーネントのスコープをページ内に限定することができます。
-
 
 <command-line>
     <command-prompt>ionic generate</command-prompt>
